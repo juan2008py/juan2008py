@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: block;
+    justify-content: center;
+}
+
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header #title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#hero {
+    background: #77aaff;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+
+#contenido, #intro, #informacion, #objetivos {
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contenido h2, #intro h2, #informacion h2, #objetivos h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+#boton {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#boton button {
+    padding: 10px 20px;
+    border: none;
+    background: #77aaff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    #search input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    #musica{
+      background: dimgray;
+      color: white;
+      font-family: monospace;
+      font-size: 10px;
+      text-align: center;
+    }
+}
